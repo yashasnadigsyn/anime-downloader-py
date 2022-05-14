@@ -40,7 +40,6 @@ for i in animenames:
 
 animechoice = int(input("Please choose your index number:"))
 animechoice = animelinkslist[animechoice-1]
-animechoice = "https://animeflix.sbs/anime/tokyo-ghoul"
 animechoice = animechoice[0:22] + "watch" + animechoice[22+5: ]
 animechoice += f"-episode-{episode}"
 driver.get(animechoice)
